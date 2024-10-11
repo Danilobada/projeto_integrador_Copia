@@ -1,0 +1,48 @@
+oque precisa fazer
+----------------------------------
+IMPORTANTE
+usar os padroes de botões do boostrap
+----------------------------------
+ajustar as telas login cadastro para ficarem em maior cincronia
+tamanho esta diferete
+----------------------------------
+O amarelo é pros botões e os texto principais da página.
+O bege é mais pros "sub-textos"
+Textos não principais, no caso.
+Ele é um amarelo mais fraquinho
+----------------------------------
+*mudar a fonte dos texto
+----------------------------------
+//dados_livros(compras)//
+*estilizar o botão do dados-livro ok
+*mudar fonte e estilo das palavras(dar destaque para informações do livro)
+*mudar a largura e altura.
+*tirar a cor preta na ação apos o click do botão
+----------------------------------
+*fazer novo formulario de login ok 
+*com imagem. login na direita imagem na esquerda.ok
+mudar botões ajustar para ficarem embaixo(apenas texto)
+----------------------------------
+*fazer novo formulario de cadastro ok
+*imagem do lado esquerdo forme no direito ok
+*no form nome, cpf, celular, sexo, senha, confirme senha,ok
+*endereço completo => pais, estado, cidade,bairro, rua, <=numero, cep, fazer ok
+mudar botões ajustar para ficarem embaixo(apenas texto) 
+----------------------------------
+vitrine mudar a largura (da um padding) diminui o tamanho na lateral (em progresso)
+fazer um footer(IMPORTANTE)
+---------------------------------
+fazer tela de compras
+---------------------------------
+se sobrar tempo boao doar livros
+--------------------------------
+*Tela confirmação de pagamento
+*Tela recuperar ok
+*Tela editar livro
+*Tela editar dados do usuário
+*Documentação Eng. de Software
+*Criar botão de logout no Cabeçalho
+*Criar trigger
+*adicionar mais descrição nos itens no carrinho
+*Adicionar mais informações no modal de compra na tela Home (vitrine)
+*Adicionar botão excluir nos itens do carrinho

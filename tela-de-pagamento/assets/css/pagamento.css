@@ -1,0 +1,259 @@
+.metodo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.metodo h1 {
+    font-size: 1.8rem;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+    color: var(--color-amarelo-500);
+}
+
+.butons-metodo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.3rem;
+}
+
+.butons-metodo button {
+    width: 25rem;
+    height: 70px;
+    font-size: 2rem;
+    font-weight: 800;
+    font-family: 'Open Sans', sans-serif;
+    color: var(--color-amarelo-400);
+    cursor: pointer;
+    margin-top: 1.2rem;
+    border: 1px solid var(--color-cinza-500);
+    background-color: var(--color-cinza-700);
+}
+
+#cartao:hover,
+#boleto:hover {
+    border: 3px solid var(--color-amarelo-500);
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 51rem;
+}
+
+.cartao-credito {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    margin-top: 1.2rem;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.basico {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;   
+}
+
+.basico label {
+    font-size: 1.7rem;
+    color: var(--color-amarelo-400);
+}
+
+.basico label[for="nomeCartao"] {
+    margin-top: 1rem;
+}
+
+.basico input {
+    width: 100%;
+    height: 4rem;
+    font-size: 1.6rem;
+    border-radius: .6rem;
+}
+
+.data {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1rem;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.data label {
+    font-size: 1.7rem;
+    color: var(--color-amarelo-400);
+    margin: 1.2rem 1rem 0 0;
+}
+
+.data select {
+    font-size: 1.8rem;
+    width: 100%;
+}
+#mes{
+    border: none;
+    background-color: transparent;
+    border: 1px solid var(--color-cinza-500);
+    padding: 0.4rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    color: var(--color-amarelo-400);
+}
+#ano{
+    border: none;
+    background-color: transparent;
+    border: 1px solid var(--color-cinza-500);
+    padding: 0.4rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    color: var(--color-amarelo-400);
+}
+select#mes  option.cor{
+    background-color: var(--color-cinza-500);
+}
+select#ano option.cor{
+    background-color: var(--color-cinza-500);
+}
+
+.cartao-credito label:nth-child(2) {
+    font-size: 1.7rem;
+    color: var(--color-amarelo-400);
+}
+
+.mes,
+.ano {
+    margin-top: 1.2rem;
+}
+
+#cvv {
+    width: 56.9%;
+    font-size: 1.8rem;
+    margin-top: 1.2rem;
+    padding-inline: 1rem;
+}
+#cvv{
+    border: none;
+    background-color: transparent; 
+    border-radius: 5px;
+    cursor: text;
+    border: 1px solid var(--color-cinza-400); 
+}
+#cvv:hover{
+    border: 1px solid var(--color-amarelo-500);
+}
+
+.button-pay {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 1rem;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 2.2rem;
+}
+
+.button-pay button {
+    width: 150px;
+    height: 50px;
+    font-size: 2rem;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 1rem;
+    color: var(--color-amarelo-400);
+    background-color: var(--color-cinza-700);
+    border: 1px solid var(--color-cinza-500);
+}
+
+.button-pay button:hover {
+    border: 3px solid var(--color-amarelo-500);
+}
+
+.button-pay p {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: var(--color-amarelo-500);
+}
+#numCartao{
+    border: none;
+    background-color: transparent;
+    border: 1px solid var(--color-cinza-400);
+    padding: 0.4rem 1rem;
+    border-radius: 5px;
+    cursor: text;
+}
+#numCartao:hover,
+#nomeCartao:hover {
+    border: 1px solid var(--color-amarelo-500);
+    transition: all 100ms;
+}
+
+
+#nomeCartao{
+    border: none;
+    background-color: transparent;
+    padding: 0.4rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 1px solid var(--color-cinza-400);
+    cursor: text;
+}
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+    
+}
+input[type=number] { 
+   -moz-appearance: textfield;
+   appearance: textfield;
+
+}
+.boleto{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    margin-top: 3.2rem;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.boleto label[for="nome"],
+.boleto label[for="cpf"]{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.7rem;
+    color: var(--color-amarelo-400);
+    /* margin: 1.2rem 1rem 0 0; */
+}
+.boleto input[type="text"]{
+    border: none;
+    background-color: transparent;
+    border: 1px solid var(--color-cinza-400);
+    padding: 0.5rem 3.8rem 0.5rem ;
+    border-radius: 5px;
+    cursor: text;
+}
+.boleto input[type="text"]:hover,
+.boleto input[type="text"]:hover{
+    border: 1px solid var(--color-amarelo-500);
+    transition: all 100ms;
+}
+.codigo-barra{
+    display: flex;
+    background-color: red;
+    margin: 0.9rem 0 0.9rem 0;
+    background: url(../img/codigo.svg);
+    background-repeat: no-repeat; 
+    background-position: block; 
+    background-size: 100%;
+    width: 100%;
+    height: 50%;
+}
+
